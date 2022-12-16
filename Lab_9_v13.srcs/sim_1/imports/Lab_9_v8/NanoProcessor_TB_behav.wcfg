@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="NanoProcessor_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="NanoProcessor_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1254057469fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Clk_Slow" type="logic">
+      <obj_property name="ElementShortName">Clk_Slow</obj_property>
+      <obj_property name="ObjectShortName">Clk_Slow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Res" type="logic">
+      <obj_property name="ElementShortName">Res</obj_property>
+      <obj_property name="ObjectShortName">Res</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/R7_out" type="array">
+      <obj_property name="ElementShortName">R7_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">R7_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/address" type="array">
+      <obj_property name="ElementShortName">address[2:0]</obj_property>
+      <obj_property name="ObjectShortName">address[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Jump_Address1" type="array">
+      <obj_property name="ElementShortName">Jump_Address1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Jump_Address1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg_En1" type="array">
+      <obj_property name="ElementShortName">Reg_En1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_En1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg0" type="array">
+      <obj_property name="ElementShortName">Reg0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg1" type="array">
+      <obj_property name="ElementShortName">Reg1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg2" type="array">
+      <obj_property name="ElementShortName">Reg2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg3" type="array">
+      <obj_property name="ElementShortName">Reg3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg4" type="array">
+      <obj_property name="ElementShortName">Reg4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg5" type="array">
+      <obj_property name="ElementShortName">Reg5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg6" type="array">
+      <obj_property name="ElementShortName">Reg6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/Reg7" type="array">
+      <obj_property name="ElementShortName">Reg7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NanoProcessor_TB/UUT/sum" type="array">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+   </wvobject>
+</wave_config>

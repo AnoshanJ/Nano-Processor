@@ -36,15 +36,16 @@ Here we designed a register bank that contains 8, 4-bit registers (R0 to R7) , w
 
 6. Program ROM
 Program ROM is used to store our Assembly program so it was designed using a ROM based Look Up Table (LUT) .Here we hardcode our 12-bit instruction set into the ROM .
-Assembly Program and its Machine Code Representation 
-"100010000011",--MOV R1, 3 
-"100100000010",--MOV R2, 2 
-"100110000001", --MOV R3,1 
-"000110010000", -- ADD R3, R1 
-"000110100000",--ADD R3,R2 
-"101110110111", --MOV R7, R3 
-"110000010111", --JZR R1, 7 
-"110000000111" --JZR R0, 7
+Assembly Program and its Machine Code Representation
+
+- "100010000011",--MOV R1, 3 
+- "100100000010",--MOV R2, 2 
+- "100110000001", --MOV R3,1 
+- "000110010000", -- ADD R3, R1 
+- "000110100000",--ADD R3,R2 
+- "101110110111", --MOV R7, R3 
+- "110000010111", --JZR R1, 7 
+- "110000000111" --JZR R0, 7
 
 7. Instruction decoder
 We need to design and build the Instruction Decoder in order to activate the necessary components based on the instructions we need to execute. Here we need to execute 4 types of instructions (ADD , NEG ,JZR , MOVI).
@@ -52,7 +53,7 @@ We need to design and build the Instruction Decoder in order to activate the nec
 8. Report
 
 1.Slice Logic --------------
-60
+
 +-------------------------+------+-------+-----------+-------+ 
 | Site Type | Used | Fixed | Available | Util% | 
 +-------------------------+------+-------+-----------+-------+ 
@@ -65,7 +66,9 @@ We need to design and build the Instruction Decoder in order to activate the nec
 | F7 Muxes | 0 | 0 | 16300 | 0.00 | 
 | F8 Muxes | 0 | 0 | 8150 | 0.00 
 | +--- ----------------------+------+-------+-----------+-------+
+
 2. Primitives -------------
+
 +----------+------+---------------------+ 
 | Ref Name | Used | Functional Category 
 | +----------+------+---------------------+ 
